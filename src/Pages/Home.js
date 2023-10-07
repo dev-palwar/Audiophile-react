@@ -13,7 +13,7 @@ export default function Home() {
     <div className="Main">
       <div className="hero-section h-screen text-white">
         <div className="wrapper">
-          <div className="hero-product-info w-3/6 pt-44 flex flex-col gap-8">
+          <div className="hero-product-info translate-y-1/2 flex flex-col gap-8">
             <h3 className="text-gray-400 border-l-rose-50 tracking-[1rem] text-[1.2rem]">
               New product
             </h3>

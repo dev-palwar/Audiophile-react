@@ -27,7 +27,7 @@ export default function Cart() {
       </button>
       {showModal && (
         <div className="fixed inset-0 flex items-center justify-center z-50 overflow-x-hidden overflow-y-auto">
-          <div className="relative w-auto max-w-3xl mx-auto my-6 p-10 bg-white rounded-lg shadow-lg">
+          <div className="relative w-auto max-w-3xl mx-auto my-6 p-[2rem] bg-white rounded-lg shadow-lg">
             <div className="flex flex-col">
               <div className="flex items-start justify-between pb-5 border-b border-slate-200">
                 <h3 className="text-2xl font-semibold">
@@ -87,7 +87,7 @@ export default function Cart() {
 
 export function Card({ name, image, price, type, id }) {
   return (
-    <div className="flex items-center gap-10 mt-5">
+    <div className="flex items-center gap-[2rem] mt-5">
       <div className="h-[15vh]">
         <Link to={`/${type}/${id}`}>
           <img className="h-full object-cover" src={image} alt={name} />

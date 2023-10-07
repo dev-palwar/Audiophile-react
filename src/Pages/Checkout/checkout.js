@@ -16,9 +16,9 @@ const CheckoutPage = () => {
 
   return (
     <>
-      <div className="h-[5vh]"></div>
+      <div className="h-[10vh]"></div>
       {cartData.length > 0 ? (
-        <form action="/" className="checkout-page flex justify-evenly p-[5rem]">
+        <form action="/" className="checkout-page flex justify-evenly p-[2rem]">
           <div className="form">
             <h2 className="uppercase mb-[3rem]">checkout</h2>
             <div className="billing-details flex flex-col gap-5">
@@ -71,6 +71,8 @@ const CheckoutPage = () => {
                 return (
                   <Card
                     key={value.id}
+                    type={value.type}
+                    id={value.id}
                     name={value.name}
                     image={value.image}
                     price={value.price}
