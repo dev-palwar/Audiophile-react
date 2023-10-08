@@ -9,11 +9,10 @@
     .hero-product-info {
         width: 100%;
         text-align: center;
-        /* padding-top: 15rem; */
     }
-
+    
     .hero-product-info h1 {
-        font-size: 50px;
+        font-size: 2rem;
     }
 
     .hero-product-info p {
@@ -53,13 +52,15 @@
 
     .yx1-earphone {
         flex-direction: column;
-        padding: 10px;
+        /* padding: 10px; */
     }
 
     .yx1-earphone .info {
         padding: 20px;
     }
-
+    .yx1-earphone .info h1{
+        font-size: 2rem;
+    }
     .about {
         flex-direction: column;
         gap: 30px;
@@ -77,10 +78,6 @@
 
     footer p {
         font-size: 12px;
-    }
-
-    .navigation {
-        flex-direction: column;
     }
 
     .item-card {
@@ -107,6 +104,15 @@
 
     .no-items-image {
         width: 100%;
+    }
+    .mobile-footer{
+        flex-direction: column;
+    }
+    .copyright{
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
     }
 }
 

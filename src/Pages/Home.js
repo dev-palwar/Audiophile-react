@@ -2,8 +2,8 @@ import React from "react";
 import About from "../Components/About"
 import Footer from "../Components/Footer"
 import { Link } from "react-router-dom";
-import Category from "../Components/Category"; // Update the path as needed
-import zx9 from "../assets/home/desktop/image-speaker-zx9.png"; // Update the image paths as needed
+import Category from "../Components/Category"; 
+import zx9 from "../assets/home/desktop/image-speaker-zx9.png"; 
 import yx1 from "../assets/product-yx1-earphones/desktop/image-gallery-2.jpg";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
     <div className="Main">
       <div className="hero-section h-screen text-white">
         <div className="wrapper">
-          <div className="hero-product-info translate-y-1/2 flex flex-col gap-8">
+          <div className="hero-product-info translate-y-44 flex flex-col gap-8">
             <h3 className="text-gray-400 border-l-rose-50 tracking-[1rem] text-[1.2rem]">
               New product
             </h3>
@@ -55,7 +55,7 @@ export default function Home() {
         </div>
         <div className="yx1-earphone flex gap-10 mt-10 mb-10">
           <div className="image basis-[50%]">
-            <img alt="" src={yx1} className="rounded w-full" width={500} height={500} />
+            <img alt="" src={yx1} className="rounded w-full" />
           </div>
           <div className="info flex flex-col justify-center gap-6 basis-[50%] bg-[#f1f1f1] rounded w-full">
             <h1 className="text-5xl font-normal mx-10">YX1 Earphones</h1>
