@@ -59,7 +59,7 @@ export default function Home() {
           </div>
           <div className="info flex flex-col justify-center gap-6 basis-[50%] bg-[#f1f1f1] rounded w-full">
             <h1 className="text-5xl font-normal mx-10">YX1 Earphones</h1>
-            <Link to="/earphones/1">
+            <Link to="/earphones/6">
               <button className="button2 mx-10">See product</button>
             </Link>
           </div>
