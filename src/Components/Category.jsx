@@ -31,7 +31,7 @@ const Category = () => {
             height={"50%"}
           />
           <h2>Earphones</h2>
-          <Link to="/earphones" className="flex items-center gap-1">
+          <Link to="/products/earphones" className="flex items-center gap-1">
             <p className="text-gray-400">Shop</p>
             <BiRightArrow className="text-gray-400" />
           </Link>
@@ -44,7 +44,7 @@ const Category = () => {
             height={"50%"}
           />
           <h2>Speakers</h2>
-          <Link to="/speakers" className="flex items-center gap-1">
+          <Link to="/products/speakers" className="flex items-center gap-1">
             <p className="text-gray-400">Shop</p>
             <BiRightArrow className="text-gray-400" />
           </Link>
